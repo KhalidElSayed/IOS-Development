@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CE2A3F218D804B600176391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2A3F118D804B600176391 /* Foundation.framework */; };
+		8CE2A3F418D804B600176391 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2A3F318D804B600176391 /* CoreGraphics.framework */; };
+		8CE2A3F618D804B600176391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2A3F518D804B600176391 /* UIKit.framework */; };
+		8CE2A3FC18D804B600176391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CE2A3FA18D804B600176391 /* InfoPlist.strings */; };
+		8CE2A3FE18D804B600176391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2A3FD18D804B600176391 /* main.m */; };
+		8CE2A40218D804B600176391 /* LEDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2A40118D804B600176391 /* LEDAppDelegate.m */; };
+		8CE2A40518D804B600176391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE2A40318D804B600176391 /* Main.storyboard */; };
+		8CE2A40818D804B600176391 /* LEDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2A40718D804B600176391 /* LEDViewController.m */; };
+		8CE2A40A18D804B700176391 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE2A40918D804B700176391 /* Images.xcassets */; };
+		8CE2A41118D804B700176391 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2A41018D804B700176391 /* XCTest.framework */; };
+		8CE2A41218D804B700176391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2A3F118D804B600176391 /* Foundation.framework */; };
+		8CE2A41318D804B700176391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2A3F518D804B600176391 /* UIKit.framework */; };
+		8CE2A41B18D804B700176391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CE2A41918D804B700176391 /* InfoPlist.strings */; };
+		8CE2A41D18D804B700176391 /* LED_HeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2A41C18D804B700176391 /* LED_HeroTests.m */; };
+		8CE2A42718D805C500176391 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2A42618D805C500176391 /* AVFoundation.framework */; };
+		8CE2A42918D8060700176391 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2A42818D8060700176391 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CE2A41418D804B700176391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CE2A3E618D804B600176391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE2A3ED18D804B600176391;
+			remoteInfo = "LED Hero";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CE2A3EE18D804B600176391 /* LED Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LED Hero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE2A3F118D804B600176391 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CE2A3F318D804B600176391 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CE2A3F518D804B600176391 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CE2A3F918D804B600176391 /* LED Hero-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LED Hero-Info.plist"; sourceTree = "<group>"; };
+		8CE2A3FB18D804B600176391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CE2A3FD18D804B600176391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CE2A3FF18D804B600176391 /* LED Hero-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LED Hero-Prefix.pch"; sourceTree = "<group>"; };
+		8CE2A40018D804B600176391 /* LEDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEDAppDelegate.h; sourceTree = "<group>"; };
+		8CE2A40118D804B600176391 /* LEDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDAppDelegate.m; sourceTree = "<group>"; };
+		8CE2A40418D804B600176391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CE2A40618D804B600176391 /* LEDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEDViewController.h; sourceTree = "<group>"; };
+		8CE2A40718D804B600176391 /* LEDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDViewController.m; sourceTree = "<group>"; };
+		8CE2A40918D804B700176391 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CE2A40F18D804B700176391 /* LED HeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LED HeroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE2A41018D804B700176391 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8CE2A41818D804B700176391 /* LED HeroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LED HeroTests-Info.plist"; sourceTree = "<group>"; };
+		8CE2A41A18D804B700176391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CE2A41C18D804B700176391 /* LED_HeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LED_HeroTests.m; sourceTree = "<group>"; };
+		8CE2A42618D805C500176391 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8CE2A42818D8060700176391 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE2A3EB18D804B600176391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE2A42918D8060700176391 /* CoreLocation.framework in Frameworks */,
+				8CE2A42718D805C500176391 /* AVFoundation.framework in Frameworks */,
+				8CE2A3F418D804B600176391 /* CoreGraphics.framework in Frameworks */,
+				8CE2A3F618D804B600176391 /* UIKit.framework in Frameworks */,
+				8CE2A3F218D804B600176391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE2A40C18D804B700176391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE2A41118D804B700176391 /* XCTest.framework in Frameworks */,
+				8CE2A41318D804B700176391 /* UIKit.framework in Frameworks */,
+				8CE2A41218D804B700176391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CE2A3E518D804B600176391 = {
+			isa = PBXGroup;
+			children = (
+				8CE2A3F718D804B600176391 /* LED Hero */,
+				8CE2A41618D804B700176391 /* LED HeroTests */,
+				8CE2A3F018D804B600176391 /* Frameworks */,
+				8CE2A3EF18D804B600176391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE2A3EF18D804B600176391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE2A3EE18D804B600176391 /* LED Hero.app */,
+				8CE2A40F18D804B700176391 /* LED HeroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE2A3F018D804B600176391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CE2A42818D8060700176391 /* CoreLocation.framework */,
+				8CE2A42618D805C500176391 /* AVFoundation.framework */,
+				8CE2A3F118D804B600176391 /* Foundation.framework */,
+				8CE2A3F318D804B600176391 /* CoreGraphics.framework */,
+				8CE2A3F518D804B600176391 /* UIKit.framework */,
+				8CE2A41018D804B700176391 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CE2A3F718D804B600176391 /* LED Hero */ = {
+			isa = PBXGroup;
+			children = (
+				8CE2A40018D804B600176391 /* LEDAppDelegate.h */,
+				8CE2A40118D804B600176391 /* LEDAppDelegate.m */,
+				8CE2A40318D804B600176391 /* Main.storyboard */,
+				8CE2A40618D804B600176391 /* LEDViewController.h */,
+				8CE2A40718D804B600176391 /* LEDViewController.m */,
+				8CE2A40918D804B700176391 /* Images.xcassets */,
+				8CE2A3F818D804B600176391 /* Supporting Files */,
+			);
+			path = "LED Hero";
+			sourceTree = "<group>";
+		};
+		8CE2A3F818D804B600176391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CE2A3F918D804B600176391 /* LED Hero-Info.plist */,
+				8CE2A3FA18D804B600176391 /* InfoPlist.strings */,
+				8CE2A3FD18D804B600176391 /* main.m */,
+				8CE2A3FF18D804B600176391 /* LED Hero-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CE2A41618D804B700176391 /* LED HeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CE2A41C18D804B700176391 /* LED_HeroTests.m */,
+				8CE2A41718D804B700176391 /* Supporting Files */,
+			);
+			path = "LED HeroTests";
+			sourceTree = "<group>";
+		};
+		8CE2A41718D804B700176391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CE2A41818D804B700176391 /* LED HeroTests-Info.plist */,
+				8CE2A41918D804B700176391 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE2A3ED18D804B600176391 /* LED Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE2A42018D804B700176391 /* Build configuration list for PBXNativeTarget "LED Hero" */;
+			buildPhases = (
+				8CE2A3EA18D804B600176391 /* Sources */,
+				8CE2A3EB18D804B600176391 /* Frameworks */,
+				8CE2A3EC18D804B600176391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LED Hero";
+			productName = "LED Hero";
+			productReference = 8CE2A3EE18D804B600176391 /* LED Hero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CE2A40E18D804B700176391 /* LED HeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE2A42318D804B700176391 /* Build configuration list for PBXNativeTarget "LED HeroTests" */;
+			buildPhases = (
+				8CE2A40B18D804B700176391 /* Sources */,
+				8CE2A40C18D804B700176391 /* Frameworks */,
+				8CE2A40D18D804B700176391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE2A41518D804B700176391 /* PBXTargetDependency */,
+			);
+			name = "LED HeroTests";
+			productName = "LED HeroTests";
+			productReference = 8CE2A40F18D804B700176391 /* LED HeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE2A3E618D804B600176391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LED;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ravin Sardal";
+				TargetAttributes = {
+					8CE2A40E18D804B700176391 = {
+						TestTargetID = 8CE2A3ED18D804B600176391;
+					};
+				};
+			};
+			buildConfigurationList = 8CE2A3E918D804B600176391 /* Build configuration list for PBXProject "LED Hero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE2A3E518D804B600176391;
+			productRefGroup = 8CE2A3EF18D804B600176391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE2A3ED18D804B600176391 /* LED Hero */,
+				8CE2A40E18D804B700176391 /* LED HeroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE2A3EC18D804B600176391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE2A40A18D804B700176391 /* Images.xcassets in Resources */,
+				8CE2A3FC18D804B600176391 /* InfoPlist.strings in Resources */,
+				8CE2A40518D804B600176391 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE2A40D18D804B700176391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE2A41B18D804B700176391 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE2A3EA18D804B600176391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE2A40218D804B600176391 /* LEDAppDelegate.m in Sources */,
+				8CE2A40818D804B600176391 /* LEDViewController.m in Sources */,
+				8CE2A3FE18D804B600176391 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE2A40B18D804B700176391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE2A41D18D804B700176391 /* LED_HeroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CE2A41518D804B700176391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE2A3ED18D804B600176391 /* LED Hero */;
+			targetProxy = 8CE2A41418D804B700176391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CE2A3FA18D804B600176391 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE2A3FB18D804B600176391 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CE2A40318D804B600176391 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE2A40418D804B600176391 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CE2A41918D804B700176391 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE2A41A18D804B700176391 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CE2A41E18D804B700176391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CE2A41F18D804B700176391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE2A42118D804B700176391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LED Hero/LED Hero-Prefix.pch";
+				INFOPLIST_FILE = "LED Hero/LED Hero-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CE2A42218D804B700176391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LED Hero/LED Hero-Prefix.pch";
+				INFOPLIST_FILE = "LED Hero/LED Hero-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8CE2A42418D804B700176391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LED Hero.app/LED Hero";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LED Hero/LED Hero-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LED HeroTests/LED HeroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8CE2A42518D804B700176391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LED Hero.app/LED Hero";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LED Hero/LED Hero-Prefix.pch";
+				INFOPLIST_FILE = "LED HeroTests/LED HeroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE2A3E918D804B600176391 /* Build configuration list for PBXProject "LED Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE2A41E18D804B700176391 /* Debug */,
+				8CE2A41F18D804B700176391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE2A42018D804B700176391 /* Build configuration list for PBXNativeTarget "LED Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE2A42118D804B700176391 /* Debug */,
+				8CE2A42218D804B700176391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CE2A42318D804B700176391 /* Build configuration list for PBXNativeTarget "LED HeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE2A42418D804B700176391 /* Debug */,
+				8CE2A42518D804B700176391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE2A3E618D804B600176391 /* Project object */;
+}
