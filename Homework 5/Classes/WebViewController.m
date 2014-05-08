@@ -50,28 +50,29 @@
   NSURLRequest *request = [NSURLRequest requestWithURL:url];
   [webView loadRequest:request];
   
-  //Add buttons for forward and back web navigation
+  //forward button
   CGRect frame = CGRectMake(12, 380, 70, 30);
   forwardButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
   [forwardButton setFrame:frame];
-  [forwardButton setEnabled:NO];
+  //[forwardButton setEnabled:YES];
+    [forwardButton setEnabled:NO];
   [forwardButton setTitle:@"Forward" forState:UIControlStateNormal];
     [forwardButton addTarget:self action:@selector(forwardButtonPressed:) forControlEvents:UIControlEventTouchUpInside ];
   [self.view addSubview:forwardButton];
-  //need to create the action method and a button for back.
     
-    //Add buttons for forward and back web navigation
+    
+    //back button
     CGRect backFrame = CGRectMake(250, 380, 40, 30);
     backButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [backButton setFrame:backFrame];
+    //[backButton setEnabled:YES];
     [backButton setEnabled:NO];
     [backButton setTitle:@"Back" forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(backButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backButton];
-    //need to create the action method and a button for back.
     
-    //NSLog(@"button index:");
 }
+
 
 -(IBAction)backButtonPressed:(id)sender{
     [webView goBack];
@@ -81,10 +82,25 @@
     [webView goForward];
 }
 
+
+
 #pragma mark webView delegate
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
+    if (![webView canGoForward]){
+        [forwardButton setEnabled:NO];
+    }else{
+        [forwardButton setEnabled:YES];
+    }
+    if (![webView canGoBack]){
+        [backButton setEnabled:NO];
+    }else{
+        [backButton setEnabled:YES];
+    }
+    
+  
+    
   //test the state of [webView canGoForward] and canGoBack
   //and set [button setEnabled:NO];   YES or NO accordingly.
   //The button action methods should call webView methods goBack or goForward.
