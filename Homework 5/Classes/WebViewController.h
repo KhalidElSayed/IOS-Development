@@ -17,5 +17,11 @@
 @property (nonatomic, retain)UIWebView* webView;
 @property (nonatomic, retain)UIButton* forwardButton;
 @property (nonatomic, retain)UIButton* backButton;
+
+
+-(IBAction)backButtonPressed:(id)sender;
+-(IBAction)forwardButtonPressed:(id)sender;
+
+
 @end
 

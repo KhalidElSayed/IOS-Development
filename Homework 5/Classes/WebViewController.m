@@ -41,7 +41,7 @@
   [self.view addSubview:webView];
   [webView release];
   
-  NSString * urlString = @"http://apple.com";
+  NSString * urlString = @"http://google.com";
   NSURL *url = [NSURL URLWithString:urlString];
   
   //NSString *path = [[NSBundle mainBundle] pathForResource:@"testFile.pdf" ofType:nil];
@@ -51,16 +51,35 @@
   [webView loadRequest:request];
   
   //Add buttons for forward and back web navigation
-  CGRect frame = CGRectMake(12, 380, 40, 30);
+  CGRect frame = CGRectMake(12, 380, 70, 30);
   forwardButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
   [forwardButton setFrame:frame];
   [forwardButton setEnabled:NO];
-  [forwardButton setTitle:@"F" forState:UIControlStateNormal];
-  //    [forwardButton addTarget:self action:@selector(forwardAction:) forControlEvents:UIControlEventTouchUpInside ];
+  [forwardButton setTitle:@"Forward" forState:UIControlStateNormal];
+    [forwardButton addTarget:self action:@selector(forwardButtonPressed:) forControlEvents:UIControlEventTouchUpInside ];
   [self.view addSubview:forwardButton];
   //need to create the action method and a button for back.
+    
+    //Add buttons for forward and back web navigation
+    CGRect backFrame = CGRectMake(250, 380, 40, 30);
+    backButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [backButton setFrame:backFrame];
+    [backButton setEnabled:NO];
+    [backButton setTitle:@"Back" forState:UIControlStateNormal];
+    [backButton addTarget:self action:@selector(backButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:backButton];
+    //need to create the action method and a button for back.
+    
+    //NSLog(@"button index:");
 }
 
+-(IBAction)backButtonPressed:(id)sender{
+    [webView goBack];
+}
+
+-(IBAction)forwardButtonPressed:(id)sender{
+    [webView goForward];
+}
 
 #pragma mark webView delegate
 
